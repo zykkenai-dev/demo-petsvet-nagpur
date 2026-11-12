@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pet'sVet Clinic · Dr. Avinash Rode · Nagpur</title>
+<meta name="description" content="Pet'sVet Clinic by Dr. Avinash Rode, Mankapur Ring Road, Nagpur. Careful clinical examination and medicines for dogs and cats. Rated 4.8 on Google.">
+<meta property="og:title" content="Pet'sVet Clinic · Nagpur">
+<meta property="og:description" content="Honest care for Nagpur's pets. 4.8 on Google from 74 pet parents.">
+<meta property="og:image" content="img/doxie.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='20' fill='%231F3A2B'/%3E%3Cpath d='M32 46s-14-8-14-18a7 7 0 0 1 14-2 7 7 0 0 1 14 2c0 10-14 18-14 18z' fill='%23F4A582'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--oat:#F6EFE4;--cream:#FFF9F0;--forest:#1F3A2B;--forest2:#2B4E3A;--pist:#CFE3B4;--peach:#F4A582;--peach2:#EE8C63;--ink:#1B2620;--soft:#56625A;--line:#E4D9C7}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Rubik,system-ui,sans-serif;background:var(--oat);color:var(--ink);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1260px;margin:0 auto;padding:0 36px}
+.cap{font-family:Caprasimo,Georgia,serif;font-weight:400;letter-spacing:-.01em;line-height:1.02}
+header .nav{display:flex;align-items:center;justify-content:space-between;height:84px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo i{width:42px;height:42px;border-radius:14px;background:var(--forest);display:grid;place-items:center}
+.logo i svg{width:22px;height:22px}
+.logo b{font-family:Caprasimo;font-weight:400;font-size:24px;color:var(--forest)}
+.logo small{display:block;font-size:12px;color:var(--soft);margin-top:-2px}
+.links{display:flex;gap:8px}
+.links a{padding:10px 16px;border-radius:999px;font-weight:500;font-size:15px;transition:background .2s}
+.links a:hover{background:var(--cream)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:600;font-size:16px;padding:15px 24px;border-radius:16px;transition:transform .2s,background .2s,box-shadow .2s}
+.btn.pe{background:var(--peach);color:var(--ink);box-shadow:0 4px 0 var(--peach2)}
+.btn.pe:hover{transform:translateY(-2px);box-shadow:0 6px 0 var(--peach2)}
+.btn.lt{background:transparent;color:var(--pist);border:2px solid rgba(207,227,180,.5)}
+.btn.lt:hover{background:rgba(207,227,180,.12)}
+.btn.fo{background:var(--forest);color:var(--cream)}
+.btn.fo:hover{background:var(--forest2);transform:translateY(-2px)}
+.callmini{display:none}
+/* hero slip */
+.slip{display:grid;grid-template-columns:1.05fr 26px .95fr;background:var(--forest);border-radius:36px;color:var(--cream);position:relative;overflow:hidden;min-height:600px}
+.sl{padding:60px 56px 52px;display:flex;flex-direction:column;justify-content:space-between;gap:30px}
+.chip{display:inline-flex;gap:10px;align-items:center;background:rgba(207,227,180,.14);color:var(--pist);padding:8px 14px;border-radius:999px;font-size:14px;font-weight:500;width:max-content}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--pist)}
+.sl h1{font-size:clamp(48px,6vw,92px);color:var(--cream);margin:22px 0 20px}
+.sl h1 span{color:var(--peach)}
+.sl p{font-size:19px;color:#D8E2D3;max-width:470px}
+.sl .cta{display:flex;gap:12px;flex-wrap:wrap}
+.perf{position:relative;background:var(--forest)}
+.perf:before{content:"";position:absolute;left:50%;top:22px;bottom:22px;border-left:3px dashed rgba(246,239,228,.28)}
+.perf:after,.perf b{content:"";position:absolute;left:50%;width:44px;height:44px;border-radius:50%;background:var(--oat);transform:translateX(-50%)}
+.perf:after{bottom:-22px}.perf b{top:-22px}
+.sr{position:relative;padding:22px 22px 22px 0}
+.sr .ph{position:relative;height:100%;border-radius:26px;overflow:hidden;min-height:440px}
+.sr img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 35%}
+.token{position:absolute;left:22px;bottom:22px;right:22px;background:var(--cream);color:var(--ink);border-radius:20px;padding:18px 22px;display:grid;grid-template-columns:1fr auto;gap:6px 18px;align-items:center}
+.token small{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);font-weight:600}
+.token strong{font-size:18px;font-weight:600}
+.token .st{grid-row:span 2;text-align:center;background:var(--pist);border-radius:14px;padding:10px 14px}
+.token .st b{font-family:Caprasimo;font-weight:400;font-size:30px;display:block;line-height:1}
+.token .st span{font-size:12px}
+.sticker{position:absolute;right:40px;top:40px;width:120px;height:120px;border-radius:50%;background:var(--peach);color:var(--ink);display:grid;place-items:center;text-align:center;font-family:Caprasimo;font-size:17px;line-height:1.05;transform:rotate(-10deg);box-shadow:0 10px 24px -10px rgba(0,0,0,.4)}
+/* species pills */
+.see{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:40px 0 0}
+.see span{font-weight:500;color:var(--soft);margin-right:10px}
+.pill{background:var(--cream);border:1.5px solid var(--line);border-radius:999px;padding:10px 18px;font-weight:500;transition:background .2s,border-color .2s}
+.pill:hover{background:var(--pist);border-color:var(--pist)}
+section{padding:110px 0}
+.sh{max-width:720px;margin-bottom:54px}
+.sh h2{font-size:clamp(36px,4.6vw,64px);color:var(--forest)}
+.sh p{color:var(--soft);margin-top:16px;font-size:18px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cd{background:var(--cream);border-radius:28px;padding:34px;border:1.5px solid var(--line);transition:transform .25s,box-shadow .25s}
+.cd:hover{transform:translateY(-6px);box-shadow:0 20px 40px -26px rgba(31,58,43,.5)}
+.ic{width:62px;height:62px;border-radius:20px;display:grid;place-items:center;margin-bottom:26px}
+.ic svg{width:30px;height:30px}
+.cd h3{font-family:Caprasimo;font-weight:400;font-size:28px;color:var(--forest);margin-bottom:10px}
+.cd p{color:var(--soft);font-size:16px}
+/* hygiene quote */
+.hq{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.hq .ph{border-radius:32px 32px 32px 200px;overflow:hidden;aspect-ratio:4/4.4}
+.hq .ph img{width:100%;height:100%;object-fit:cover}
+.big{font-family:Caprasimo;font-size:clamp(56px,8vw,120px);color:var(--peach2);line-height:.95}
+.hq blockquote{font-size:21px;line-height:1.55;margin-top:26px;color:var(--ink)}
+.hq cite{display:block;font-style:normal;margin-top:18px;color:var(--soft);font-weight:500}
+/* hours bar */
+.hours{background:var(--pist)}
+.hgrid{display:grid;grid-template-columns:1fr 1.2fr;gap:56px;align-items:center}
+.hgrid h2{font-size:clamp(36px,4.6vw,64px);color:var(--forest)}
+.hgrid p{color:#3B4A3F;margin-top:16px}
+.day{background:var(--cream);border-radius:28px;padding:34px}
+.bar{position:relative;height:64px;border-radius:18px;background:repeating-linear-gradient(90deg,#EFE6D6 0 1px,transparent 1px calc(100%/14));background-color:#F6EEE1;margin:22px 0 14px}
+.blk{position:absolute;top:8px;bottom:8px;border-radius:12px;background:var(--forest);color:var(--cream);display:grid;place-items:center;font-size:13px;font-weight:600;white-space:nowrap}
+.ticks{display:flex;justify-content:space-between;font-size:12px;color:var(--soft)}
+.today{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.today strong{font-family:Caprasimo;font-weight:400;font-size:26px;color:var(--forest)}
+.state{padding:8px 14px;border-radius:999px;font-size:14px;font-weight:600;background:#EEE3D2}
+.state.on{background:var(--forest);color:var(--pist)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:22px}
+.week span{text-align:center;padding:10px 0;border-radius:12px;background:#F2E9DA;font-size:14px;font-weight:500}
+.week span.cl{background:transparent;color:var(--soft);text-decoration:line-through}
+.week span.td{background:var(--peach)}
+/* reviews */
+.revs{columns:3;column-gap:22px}
+.rev{break-inside:avoid;background:var(--cream);border-radius:24px;padding:28px;margin-bottom:22px;border:1.5px solid var(--line)}
+.rev p{font-size:17px}
+.rev .who{display:flex;align-items:center;gap:12px;margin-top:18px;font-weight:600;font-size:15px}
+.rev .who i{width:36px;height:36px;border-radius:12px;background:var(--pist);display:grid;place-items:center;font-style:normal;color:var(--forest);font-size:14px}
+.rev .st{color:var(--peach2);letter-spacing:2px;font-size:14px;margin-bottom:10px}
+.rev.pe{background:var(--peach);border-color:var(--peach)}
+.rev.pe .who i{background:var(--cream)}
+.rev.pe .st{color:var(--forest)}
+/* visit */
+.visit{padding:0 0 60px}
+.vbox{background:var(--forest);color:var(--cream);border-radius:36px;padding:64px;display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center}
+.vbox h2{font-size:clamp(36px,4.6vw,64px);color:var(--cream)}
+.vbox h2 span{color:var(--peach)}
+.vl p{color:#D8E2D3;margin:18px 0 28px;max-width:440px}
+.vi{display:grid;gap:14px}
+.vi div{background:rgba(246,239,228,.07);border-radius:18px;padding:18px 22px}
+.vi small{display:block;color:var(--pist);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;margin-bottom:4px}
+footer{padding:10px 0 40px;color:var(--soft);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.rv{opacity:0;transform:translateY(22px) scale(.99);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+@media (max-width:1000px){.links{display:none}.slip{grid-template-columns:1fr}.perf{height:26px}.perf:before{left:22px;right:22px;top:50%;bottom:auto;border-left:0;border-top:3px dashed rgba(246,239,228,.28)}.perf:after,.perf b{top:50%;transform:translateY(-50%)}.perf b{left:-22px}.perf:after{left:auto;right:-22px;bottom:auto}.sr{padding:0 22px 22px}.sr .ph{min-height:420px}.cards{grid-template-columns:1fr 1fr}.hq,.hgrid,.vbox{grid-template-columns:1fr}.revs{columns:2}section{padding:84px 0}}
+@media (max-width:600px){.wrap{padding:0 18px}body{font-size:16px}header .nav{height:70px}.nav .btn{display:none}.callmini{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:var(--peach);color:var(--ink)}.callmini svg{width:20px;height:20px}.logo b{font-size:21px}.slip{border-radius:26px}.sl{padding:34px 24px 26px}.sl .cta .btn{flex:1}.sticker{width:92px;height:92px;font-size:14px;right:22px;top:22px}.sr{padding:0 12px 12px}.sr .ph{min-height:380px;border-radius:20px}.token{left:12px;right:12px;bottom:12px;padding:14px 16px}.token strong{font-size:16px}.cards{grid-template-columns:1fr}.revs{columns:1}.vbox{padding:34px 24px;border-radius:26px}.day{padding:22px}.week span{font-size:12px}.blk{font-size:11px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="#top"><i><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.2-7-9.4A3.6 3.6 0 0 1 12 9a3.6 3.6 0 0 1 7 1.6C19 15.8 12 20 12 20z" fill="#F4A582"/></svg></i><span><b>Pet'sVet</b><small>Clinic · Dr. Avinash Rode</small></span></a>
+  <nav class="links"><a href="#care">Care</a><a href="#hours">Timings</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+  <a class="btn fo" href="tel:+917038441514">Call the clinic</a>
+  <a class="callmini" href="tel:+917038441514" aria-label="Call Pet'sVet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></a>
+</div></header>
+<main id="top">
+<div class="wrap">
+  <div class="slip">
+    <div class="sl">
+      <div><span class="chip"><i></i>Mankapur Ring Road · Nagpur</span>
+      <h1 class="cap">Honest care for Nagpur's <span>pets.</span></h1>
+      <p>A careful clinical exam, the right medicine, and a vet who tells you exactly what's wrong. Nothing more than your pet actually needs.</p></div>
+      <div class="cta"><a class="btn pe" href="tel:+917038441514">Call 70384 41514</a><a class="btn lt" href="#hours">Today's timings</a></div>
+    </div>
+    <div class="perf" aria-hidden="true"><b></b></div>
+    <div class="sr">
+      <div class="ph"><img src="img/doxie.jpg" alt="A dachshund in a harness waiting calmly at the vet" fetchpriority="high">
+        <div class="sticker">Dogs &amp; cats welcome</div>
+        <div class="token"><div><small>Open today</small><br><strong id="slot">10–12 &amp; 5:30–8 pm</strong></div><div class="st"><b>4.8</b><span>74 reviews</span></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="see rv"><span>We see</span><em class="pill" style="font-style:normal">Dogs</em><em class="pill" style="font-style:normal">Cats</em><em class="pill" style="font-style:normal">Puppies &amp; kittens</em><em class="pill" style="font-style:normal">Rescued strays</em></div>
+</div>
+
+<section id="care">
+  <div class="wrap">
+    <div class="sh rv"><h2 class="cap">What a visit to Pet'sVet looks like.</h2><p>“Dedicated pets clinic where you will get best clinical examination and medicines for your pets.” That's the promise, kept simple.</p></div>
+    <div class="cards">
+      <article class="cd rv"><div class="ic" style="background:var(--pist)"><svg viewBox="0 0 24 24" fill="none" stroke="#1F3A2B" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></div><h3>A proper exam</h3><p>Head to tail, on a freshly cleaned table. Dr. Rode checks properly and explains what he finds in plain words.</p></article>
+      <article class="cd rv"><div class="ic" style="background:var(--peach)"><svg viewBox="0 0 24 24" fill="none" stroke="#1B2620" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg></div><h3>Only what's needed</h3><p>No scary words, no extra visits for the sake of it. If it's just ear wax, you'll hear “it's just ear wax.”</p></article>
+      <article class="cd rv"><div class="ic" style="background:#EADFCB"><svg viewBox="0 0 24 24" fill="none" stroke="#1F3A2B" stroke-width="2"><rect x="7" y="3" width="10" height="18" rx="3"/><path d="M7 9h10"/></svg></div><h3>Medicines on hand</h3><p>Pick up prescribed medicines, shampoos and care products right at the clinic, before you head home.</p></article>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap hq">
+    <div class="ph rv"><img src="img/cat.jpg" alt="A tabby cat resting calmly on its owner's lap" loading="lazy"></div>
+    <div class="rv">
+      <div class="big">“Hygiene level is A1.”</div>
+      <blockquote>“I have a stray cat and we went to show her ears… Dr. Avinash told us what exactly she has, ear wax. He did not tell anything big just to increase follow up visits. Even for examination, he cleaned the table completely.”</blockquote>
+      <cite>Khushboo W. · Google review</cite>
+    </div>
+  </div>
+</section>
+
+<section class="hours" id="hours">
+  <div class="wrap hgrid">
+    <div class="rv"><h2 class="cap">Two windows a day.</h2><p>Mornings for a quick check before work, evenings for everything after. Sundays the clinic rests, so plan non-urgent visits for Monday to Saturday.</p></div>
+    <div class="day rv">
+      <div class="today"><strong id="dname">Today</strong><span class="state" id="state">Checking…</span></div>
+      <div class="bar" aria-label="Clinic hours from 8 am to 10 pm"><div class="blk" style="left:14.28%;width:14.28%">10–12</div><div class="blk" style="left:67.85%;width:17.85%">5:30–8</div></div>
+      <div class="ticks"><span>8 am</span><span>12 pm</span><span>4 pm</span><span>8 pm</span><span>10 pm</span></div>
+      <div class="week" id="week"><span data-d="1">Mon</span><span data-d="2">Tue</span><span data-d="3">Wed</span><span data-d="4">Thu</span><span data-d="5">Fri</span><span data-d="6">Sat</span><span data-d="0" class="cl">Sun</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sh rv"><h2 class="cap">4.8 from 74 pet parents.</h2><p>63 of them gave five stars. A few of their words, from Google.</p></div>
+    <div class="revs">
+      <div class="rev pe rv"><div class="st">★★★★★</div><p>“Dr. Rode sir is highly experienced and professional.”</p><div class="who"><i>RK</i>Rahul K.</div></div>
+      <div class="rev rv"><div class="st">★★★★★</div><p>“Dr is really knowledged. Went there seeing the reviews and it's all true. He's great and experienced for all kinds of pet. Can get some medicines, shampoos too for the pets.”</p><div class="who"><i>NR</i>Nosheen R.</div></div>
+      <div class="rev rv"><div class="st">★★★★★</div><p>“Such a humble and friendly doctor. Very knowledgeable person. Really helped my dog a lot in getting better.”</p><div class="who"><i>AS</i>Aniket S.</div></div>
+      <div class="rev rv"><div class="st">★★★★★</div><p>“Right place for your pets: caring, humble doctor and he has good knowledge about pets. In one word, best clinic in Nagpur.”</p><div class="who"><i>SS</i>Shantanu S.</div></div>
+      <div class="rev rv"><div class="st">★★★★★</div><p>“Best pet vet in the area. I recommend every pet owner. Such humble and kind doctor he is.”</p><div class="who"><i>CM</i>Chinmay M.</div></div>
+      <div class="rev pe rv"><div class="st">★★★★★</div><p>“The best vet you can find in this region.”</p><div class="who"><i>PM</i>Prajakta M.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="vbox rv">
+      <div class="vl"><h2 class="cap">Worried about your pet? <span>Call first.</span></h2><p>Tell us what's going on and we'll tell you when to come in. Bring any old prescriptions or reports along.</p><div class="cta" style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn pe" href="tel:+917038441514">Call 70384 41514</a><a class="btn lt" href="https://www.google.com/maps/search/?api=1&query=Pet%27sVet+Clinic+Dr+Avinash+Rode+Nagpur">Directions</a></div></div>
+      <div class="vi">
+        <div><small>Clinic</small>Mankapur Ring Rd, beside Manjiri Textile, Nagpur 440022</div>
+        <div><small>Timings</small>Mon–Sat · 10 am–12 pm and 5:30–8 pm · Sunday closed</div>
+        <div><small>Email</small>care.petvet@gmail.com</div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><span>© Pet'sVet Clinic, Nagpur</span><span>Website concept by Zykken</span></div></footer>
+<script>
+(function(){
+var n=new Date(new Date().toLocaleString('en-US',{timeZone:'Asia/Kolkata'})),d=n.getDay(),m=n.getHours()*60+n.getMinutes();
+var names=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+document.getElementById('dname').textContent=names[d];
+var w=document.querySelector('#week [data-d="'+d+'"]');if(w&&d!==0)w.classList.add('td');
+var st=document.getElementById('state'),slot=document.getElementById('slot');
+if(d===0){st.textContent='Closed today';slot.textContent='Closed Sundays · opens Mon 10 am';document.querySelector('.token small').textContent='Today'}
+else if((m>=600&&m<720)||(m>=1050&&m<1200)){st.textContent='Open now';st.classList.add('on')}
+else if(m<600){st.textContent='Opens 10 am'}
+else if(m<1050){st.textContent='Opens again 5:30 pm'}
+else{st.textContent='Closed for today'}
+var els=document.querySelectorAll('.rv');if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches){els.forEach(function(e){e.classList.add('in')});return}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});els.forEach(function(e){io.observe(e)})})();
+</script>
+</body>
+</html>
